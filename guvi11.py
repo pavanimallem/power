@@ -1,4 +1,3 @@
-x =int(raw_input("enter the number to be squred"))
-y = int(raw_input("enter the power of the number"))
+x,y=map(int,raw_input().split())
 z=x**y
   print("z")
